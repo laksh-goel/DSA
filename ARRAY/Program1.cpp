@@ -1,3 +1,4 @@
+#WAP to reverse an array or a string using c++:
 #include<stdio.h>
 using namespace std;
 int main(){
