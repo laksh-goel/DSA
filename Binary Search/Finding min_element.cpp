@@ -1,4 +1,4 @@
- int countrotations(int arr, int n) {
+int minimum(int arr, int n) {
 int n=arr.size();
         int start=0;
         int end=n-1;
@@ -9,7 +9,7 @@ int n=arr.size();
             //Min element is that which is smaller to both its right element and left element
             //Checking whether the mid element found is minimum or not
             if(arr[mid]<=arr[next] && arr[mid]<=arr[prev]){
-                return index[mid];
+                return mid;
             }
             //whether to go in left array or right array
             //unsorted array gives the minimum element
@@ -21,7 +21,7 @@ int n=arr.size();
 
             }
             
-            return index[mid];
+            return mid;
         }
         
     }
