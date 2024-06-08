@@ -24,7 +24,7 @@ int binarySearch(int arr[], int start, int end, int x){
             start=mid+1;
         }
         }
-        //Applying the binary search on ascending order
+        //Applying the binary search on descending order array
         else{
             if(arr[mid]<x){
                 start=mid+1;
